@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "start": "DEBUG=nightmare babel-node ./main.js"
+  },
+  "devDependencies": {
+    "babel-cli": "6.18.0",
+    "babel-preset-modern-node": "3.2.0",
+    "babel-preset-stage-0": "6.16.0"
+  },
+  "dependencies": {
+    "nightmare": "2.8.1",
+    "node-pandoc": "^0.3.0"
+  },
+  "babel": {
+    "presets": [
+      [
+        "modern-node",
+        {
+          "version": "6.0"
+        }
+      ],
+      "stage-0"
+    ]
+  }
+}
